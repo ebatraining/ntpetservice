@@ -1,0 +1,397 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*===============================================
+●style.css 画面の横幅が779px以上
+===============================================*/
+@media screen and (min-width: 779px){
+img {
+max-width: 100%;
+height: auto;
+width /***/:auto;
+border: none;　
+}
+#container{
+width:100%;
+}
+}
+
+html {
+    overflow: scroll;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color:#605B4C;
+	line-height:1.4em;
+	font-size:0.95em;
+	font-family:"游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+}
+
+
+a:link {
+	color: #605B4C;
+	text-decoration: none;
+}
+a:visited {
+	color: #605B4C;
+}
+a:hover {
+	color: #AAAAAA;
+}
+a:active {
+	color: #FFFFFF;
+}
+
+.clear {
+    clear:both;
+}
+
+p {
+	letter-spacing: 0.2em;
+}
+
+/*===============================================
+ヘッダー START
+===============================================*/
+
+header {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+/*===============================================
+ヘッダー END
+===============================================*/
+
+
+
+/*===============================================
+ナビ START
+===============================================*/
+
+nav {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+	margin-bottom: 30px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	width: 150px;
+	height: 59px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 59px;
+	outline: none;
+	font-size: 110%;
+}
+nav li::before,
+nav li::after {
+	position: absolute;
+	z-index: -1;
+	display: block;
+	content: '';
+}
+nav li,
+nav li::before,
+nav li::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+
+nav li {
+	background-image: url(../../images/bottom-red.png);
+}
+nav li:hover,
+nav li a:hover {
+	background-image: url(../../images/bottom-blue.png);
+	color: #FFFFFF;
+}
+
+
+/*===============================================
+ナビ END
+===============================================*/
+
+
+
+/*===============================================
+メイン S
+===============================================*/
+
+main {
+	margin: 0 auto;
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+	margin: 0;
+	font-size: 1.5em;
+	line-height: 2em;
+	letter-spacing: 0.1em;
+}
+
+h2 {
+	marign: 0;
+	font-size: 1.3em;
+	letter-spacing: 0.15em;
+	position: relative;
+	padding: .25em 0 .5em .75em;
+	border-left: 6px solid #f6938e;
+}
+h2::after {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	content: '';
+	width: 100%;
+	height: 0;
+	border-bottom: 1px solid #AAAAAA;
+}
+
+.catchcopy {
+	margin: 0 auto;
+	padding: 0;
+	width:82%;
+}
+
+
+
+.line {
+	margin: 50px auto;
+}
+
+.catchcopy2 {
+	margin: 0 auto 25px;
+	padding: 0;
+	max-width: 750px;
+	width: 90%;
+	text-align: left;
+	clear: both;
+}
+
+.catchcopy2 a {
+	font-weight: bold;
+}
+
+.catchcopy2-bottom {
+	margin: 0 auto 75px;
+	padding: 0;
+	max-width: 750px;
+	width: 90%;
+	text-align: left;
+	clear: both;
+}
+
+ul.naiyou {
+	width: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+	display:table;
+	table-layout:fixed;
+	padding: 20px 0 40px 0;
+}
+
+ul.naiyou li {
+	width: auto;
+	height: 30px;
+    display: inline-block;
+    vertical-align:middle;
+    text-align:center;
+    border-left:1px solid white;
+    margin: 0 10px;
+}
+
+ul.naiyou li a {
+  display: block;
+}
+
+
+
+table {
+    max-width: 750px;
+    width: 90%;
+    margin: 0 auto 25px;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    border-bottom: 1px dotted #666666;
+}
+
+tr {
+	border: 1px dotted #666666;
+}
+
+th,td {
+    padding: 10px 20px;
+    border: 0;
+    letter-spacing: 0.2em;
+}
+
+th {
+    vertical-align: middle;
+    text-align: center;
+    width: 30%;
+    overflow: visible;
+    position: relative;
+    font-weight: normal;
+    font-size: 120%;
+}
+
+td ol {
+	padding-left: 20px;
+}
+
+td li {
+	list-style-image: url(../../images/icon-point.png);
+}
+
+td {
+    width: 70%;
+    text-align: left;
+}
+
+thead th,thead td {
+	padding: 25px 0 20px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 120%;
+}
+
+tr.sp-only {
+	display: none;
+}
+
+/*===============================================
+メイン E
+===============================================*/
+
+
+
+/*===============================================
+フッター S
+===============================================*/
+
+footer {
+	margin: 0;
+	padding: 0;
+	height: 200px;
+	background-image: url(../../images/thumb-footer.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+footer h3 {
+	margin: 0;
+	padding-top: 90px;
+}
+
+footer p {
+	margin:5px auto  0;
+	padding: 0;
+}
+
+
+/*===============================================
+フッター E
+===============================================*/
+
+/*===============================================
+TOPへ戻るボタン S
+===============================================*/
+
+#page-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 77%;
+}
+#page-top a {
+    background: rgba(51,51,51,0.3);
+    text-decoration: none;
+    color: #FFFFFF;
+    width: 90px;
+    padding: 10px 0;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+}
+#page-top a:hover {
+    text-decoration: none;
+    background: rgba(51,51,51,0.7);
+}
+
+/*===============================================
+TOPへ戻るボタン　E
+===============================================*/
+
+/*===============================================
+浮き出る画像　S
+===============================================*/
+
+#animation1 {
+margin: 0;
+font-size: 40px;
+font-weight: bold;
+color: #ff0000;
+}
+
+#animation2 {
+margin 0;
+font-size: 40px;
+font-weight: bold;
+color: #ff0000;
+}
+
+#animation3 {
+margin: 0;
+font-size: 40px;
+font-weight: bold;
+color: #ff0000;
+}
+
+.fadeInDown {
+ -webkit-animation-fill-mode:both;
+ -ms-animation-fill-mode:both;
+ animation-fill-mode:both;
+ -webkit-animation-duration:1s;
+ -ms-animation-duration:1s;
+ animation-duration:1s;
+ -webkit-animation-name: fadeInDown;
+ animation-name: fadeInDown;
+ visibility: visible !important;
+}
+@-webkit-keyframes fadeInDown {
+ 0% { opacity: 0; -webkit-transform: translateY(-20px); }
+ 100% { opacity: 1; -webkit-transform: translateY(0); }
+}
+@keyframes fadeInDown {
+ 0% { opacity: 0; -webkit-transform: translateY(-20px); -ms-transform: translateY(-20px); transform: translateY(-20px); }
+ 100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+}
+
+/*===============================================
+浮き出る画像　E
+===============================================*/
+
+
+/* --- ChromeとOperaのみ */
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+  nav li {
+    font-size: 90%;
+  }
+}

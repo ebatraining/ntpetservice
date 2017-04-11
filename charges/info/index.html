@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="船橋市のペットシッターです。ペットホテルとは違い、ご自宅にお邪魔してペットのお世話をいたします。">
+<meta name="keywords" content="ペットシッター,船橋,ペット,世話,留守,犬,猫,散歩代行,小動物">
+<meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1" />
+<meta name="robots" content="noindex,nofollow">
+<link rel="stylesheet" media="all" type="text/css" href="css/style.css" />
+<!-- ※デフォルトのスタイル（style.css） -->
+<link rel="stylesheet" media="all" type="text/css" href="../css/smart.css" />
+<!-- ※スマートフォン用のスタイル（smart.css） -->
+<title>NTペットサービス&nbsp;|&nbsp;船橋市のペットシッター</title>
+<!--[if lt IE 9]>
+<script src="../js/html5shiv.js"></script>
+<script src="../js/css3-mediaqueries.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/old_ie.css">
+<![endif]-->
+<!--button-->
+<script type="text/javascript" src="../js/jquery-1.7.1.min.js"></script>
+<script src="../js/iscroll.js"></script>
+<link rel="stylesheet" href="../css/drawer.min.css">
+<script src="../js/drawer.min.js"></script>
+<script>
+$(document).ready(function() {
+  $(".drawer").drawer();
+});</script>
+<!--button end-->
+
+<script type="text/javascript" src="../js/common.js"></script>
+</head>
+
+<body class="drawer drawer--top">
+
+<!-- HEADER START -->
+<header>
+	<h1><img src="../images/thumb-header-title.jpg" alt="NTペットサービス"></h1>
+</header>
+<!--  H E A D E R   E N D  -->
+<!--  N A V   S T A R T  -->
+<nav>
+	<ul>
+		<li><a href="../index.html">HOME</a></li>
+		<li><a href="../about/index.html">ペットお世話内容</a></li>
+		<li><a href="../charges/index.html">料金のご案内</a></li>
+		<li><a href="#">お申込までの流れ</a></li>
+		<li><a href="../enquiry/index.html">お問い合わせ</a></li>
+		<li><a href="../profile/index.html">ペットシッター</a></li>
+		<li><a href="../link/index.html">リンク</a></li>
+	</ul>
+</nav>
+<!--  N A V   E N D  -->
+<!--  M A I N   S T A R T  -->
+<main>
+	<div class="catchcopy">
+		<h1>お申し込みの流れ</h1>
+	</div>
+	<div class="wrapper">
+		<h2>&#9312;まずはお問い合わせください。</h2>
+		<p>事務所電話は常時留守電状態になっておりますので、お名前を残していただければ後ほどこちらからお電話を差し上げます。<br>
+		お急ぎでない場合には「<a href="../enquiry/index.html">お問い合わせフォーム</a>」からお問い合せください。<br>
+		ブログ「<a href="http://nananonamida.blog112.fc2.com/">ペットシッターのこうめ日記</a>」のメールフォームからもお問い合わせいただけます。</p>
+		<div id="animation1"><img src="../images/icon-info-telephone.png" alt=""></div>
+	</div>
+	<div class="wrapper">
+		<h2>&#9313;お問合せ</h2>
+		<p>お問合せ時にある程度の内容をお聞きして大体のお見積もりをいたします。<br>
+		そのうえで打ち合わせのお約束をさせていただきます。<br>
+		打ち合わせにご都合のよい日時、ご住所、駐車場などについてお伺いいたします。</p>
+		<div id="animation2"><img src="../images/icon-info-doc.png" alt=""></div>
+	</div>
+	<div class="wrapper">
+		<h2>&#9314;打ち合わせ</h2>
+		<p>飼い主様宅にお邪魔をして、ペットとの対面、詳しいご要望のお伺い、契約書や注文書へのご署名、連絡先の確認などの手続きをさせていただきます。<br>
+		これでお申し込みの終了です。これに約1時間かかります。この時、シッティング代金をいただきます。</p>
+		<div id="animation3"><img src="../images/icon-info-glasses.png" alt=""></div>
+	</div>
+		<div class="wrapper">
+		<h2>&#9315;お世話当日</h2>
+		<p>予定の時間にお伺いしてペットのお世話をさせていただきます。</p>
+		<div id="animation4"><img src="../images/icon-info-pets.png" alt=""></div>
+	</div>
+
+</main>
+<!--  M A I N   E N D  -->
+<!--  F O O T E R   S T A R T  -->
+<footer>
+	<h3>ＮＴペットサービス</h3>
+	<p>千葉県船橋市金杉７－３４－２<br>E-mail:&nbsp;bvfml116@yahoo.co.jp</p>
+	<small>Copyright&nbsp;&copy;&nbsp;NTペットサービス&nbsp;All&nbsp;Rights&nbsp;Reserved.</small>
+	<p id="page-top"><a href="#wrap">PAGE TOP</a></p>
+</footer>
+<!--  F O O T E R   E N D  -->
+
+<script type="text/javascript">
+$(function() {
+    var topBtn = $('#page-top');
+    topBtn.hide();
+    //スクロールが100に達したらボタン表示
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            topBtn.fadeIn();
+        } else {
+            topBtn.fadeOut();
+        }
+    });
+    //スクロールしてトップ
+    topBtn.click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 500);
+        return false;
+    });
+});
+
+$('#animation1').css('visibility','hidden');
+$(window).scroll(function(){
+ var windowHeight = $(window).height(),
+     topWindow = $(window).scrollTop();
+ $('#animation1').each(function(){
+  var targetPosition = $(this).offset().top;
+  if(topWindow > targetPosition - windowHeight + 50){
+   $(this).addClass("fadeInDown");
+  }
+ });
+});
+
+$('#animation2').css('visibility','hidden');
+$(window).scroll(function(){
+ var windowHeight = $(window).height(),
+     topWindow = $(window).scrollTop();
+ $('#animation2').each(function(){
+  var targetPosition = $(this).offset().top;
+  if(topWindow > targetPosition - windowHeight + 50){
+   $(this).addClass("fadeInDown");
+  }
+ });
+});
+
+$('#animation3').css('visibility','hidden');
+$(window).scroll(function(){
+ var windowHeight = $(window).height(),
+     topWindow = $(window).scrollTop();
+ $('#animation3').each(function(){
+  var targetPosition = $(this).offset().top;
+  if(topWindow > targetPosition - windowHeight + 50){
+   $(this).addClass("fadeInDown");
+  }
+ });
+});
+
+$('#animation4').css('visibility','hidden');
+$(window).scroll(function(){
+ var windowHeight = $(window).height(),
+     topWindow = $(window).scrollTop();
+ $('#animation4').each(function(){
+  var targetPosition = $(this).offset().top;
+  if(topWindow > targetPosition - windowHeight + 50){
+   $(this).addClass("fadeInDown");
+  }
+ });
+});
+
+</script>
+
+
+</body>
+</html>

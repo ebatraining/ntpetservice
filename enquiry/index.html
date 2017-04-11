@@ -1,0 +1,174 @@
+ <!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="船橋市のペットシッターです。ペットホテルとは違い、ご自宅にお邪魔してペットのお世話をいたします。">
+<meta name="keywords" content="ペットシッター,船橋,ペット,世話,留守,犬,猫,散歩代行,小動物">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<link rel="stylesheet" media="all" type="text/css" href="css/style.css" />
+<!-- ※デフォルトのスタイル（style.css） -->
+<link rel="stylesheet" media="all" type="text/css" href="../css/smart.css" />
+<!-- ※スマートフォン用のスタイル（smart.css） -->
+<title>NTペットサービス&nbsp;|&nbsp;船橋市のペットシッター</title>
+<!--[if lt IE 9]>
+<script src="../js/html5shiv.js"></script>
+<script src="//api.html5media.info/1.1.8/html5media.min.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/old_ie.css">
+<![endif]-->
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript">
+$(function() {
+    var topBtn = $('#page-top');
+    topBtn.hide();
+    //スクロールが100に達したらボタン表示
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            topBtn.fadeIn();
+        } else {
+            topBtn.fadeOut();
+        }
+    });
+    //スクロールしてトップ
+    topBtn.click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 500);
+        return false;
+    });
+});
+</script>
+<script type="text/javascript">
+$(function(){
+	$('a[href^=#]').click(function(){
+		var speed = 500;
+		var href= $(this).attr("href");
+		var target = $(href == "#" || href == "" ? 'html' : href);
+		var position = target.offset().top;
+		$("html, body").animate({scrollTop:position}, speed, "swing");
+		return false;
+	});
+});
+</script>
+
+<script type="text/javascript" src="../js/common.js"></script>
+<!--button-->
+<script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
+<script src="../js/iscroll.js"></script>
+<link rel="stylesheet" href="../css/drawer.min.css">
+<script src="../js/drawer.min.js"></script>
+<script>
+$(document).ready(function() {
+  $(".drawer").drawer();
+});</script>
+<!--button end-->
+</head>
+
+<body class="drawer drawer--right">
+
+</body>
+<div id="wrapper">
+
+<!-- HEADER START -->
+
+<script type="text/javascript">
+writeHeader("../");
+</script>
+
+<!--  H E A D E R   E N D  -->
+<!--  M A I N   S T A R T  -->
+<main id="main">
+	<div class="catchcopy2">
+		<h1>お問い合わせ</h1>
+		<p>お申し込みをご検討の場合には、ご住所、ペットの種類、頭数、お世話内容のご要望をお書きいただけば、おおよそのお見積もりができます。お急ぎの方はこちら↓ へ。<br>
+		事業所電話&nbsp;047－401－4475<br>
+		（常時留守電になっておりますので、お名前を残していただければこちらから折り返しお電話を差し上げます）</p>
+		<p>携帯電話&nbsp;070-1484-4477<br>
+		携帯メールアドレス&nbsp;nanatoyoshie@softbank.ne.jp</p>
+		<p>お時間に余裕のある方はこちら↓ へ。</p>
+	</div>
+
+	<div id="formWrap">
+	  <p>下記フォームに必要事項を入力後、確認ボタンを押してください。</p>
+	  <form method="post" action="../mail.php">
+	    <table class="formTable">
+	      <tr>
+	        <th>お名前&nbsp;<font color="#FF0000">*</font></th>
+	        <td><input size="25" type="text" name="お名前" /></td>
+	      </tr>
+	      <tr>
+	        <th>電話番号（半角）&nbsp;<font color="#FF0000">*</font></th>
+	        <td><input size="25" type="text" name="電話番号" /></td>
+	      </tr>
+	      <tr>
+	        <th>Mail（半角）&nbsp;<font color="#FF0000">*</font></th>
+	        <td><input size="25" type="text" name="Email" /></td>
+	      </tr>
+	      <tr>
+	        <th>メッセージ&nbsp;<font color="#FF0000">*</font><br /></th>
+	        <td><textarea name="お問い合わせ内容" cols="27" rows="8"></textarea></td>
+	      </tr>
+	    </table>
+	    <p align="center">
+	      <input type="submit" value="　 確認 　" />　<input type="reset" value="リセット" />
+	    </p>
+	  </form>
+	  <p>※IPアドレスを記録しております。いたずらや嫌がらせ等はご遠慮ください。</p>
+	</div>
+
+
+
+</main>
+<!--  M A I N   E N D  -->
+<!--  F O O T E R   S T A R T  -->
+<footer>
+	<h3>ＮＴペットサービス</h3>
+	<p>千葉県船橋市金杉７－３４－２<br>E-mail:&nbsp;bvfml116@yahoo.co.jp</p>
+	<small>Copyright&nbsp;&copy;&nbsp;NTペットサービス&nbsp;All&nbsp;Rights&nbsp;Reserved.</small>
+	<p id="page-top"><a href="#wrapper">PAGE TOP</a></p>
+</footer>
+<!--  F O O T E R   E N D  -->
+
+<script type="text/javascript">
+
+
+$('#animation1').css('visibility','hidden');
+$(window).scroll(function(){
+ var windowHeight = $(window).height(),
+     topWindow = $(window).scrollTop();
+ $('#animation1').each(function(){
+  var targetPosition = $(this).offset().top;
+  if(topWindow > targetPosition - windowHeight + 100){
+   $(this).addClass("fadeInDown");
+  }
+ });
+});
+
+$('#animation2').css('visibility','hidden');
+$(window).scroll(function(){
+ var windowHeight = $(window).height(),
+     topWindow = $(window).scrollTop();
+ $('#animation2').each(function(){
+  var targetPosition = $(this).offset().top;
+  if(topWindow > targetPosition - windowHeight + 250){
+   $(this).addClass("fadeInDown");
+  }
+ });
+});
+
+$('#animation3').css('visibility','hidden');
+$(window).scroll(function(){
+ var windowHeight = $(window).height(),
+     topWindow = $(window).scrollTop();
+ $('#animation3').each(function(){
+  var targetPosition = $(this).offset().top;
+  if(topWindow > targetPosition - windowHeight + 400){
+   $(this).addClass("fadeInDown");
+  }
+ });
+});
+</script>
+</div>
+</body>
+</html>

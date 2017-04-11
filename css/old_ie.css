@@ -1,0 +1,1022 @@
+<<<<<<< HEAD
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+  max-width: 1000px;
+  width:100%;
+  height: auto;
+	margin: auto;
+	padding: 0;
+	text-align: center;
+	color:#605B4C;
+	line-height:1.4em;
+	font-size:0.95em;
+	font-family:"游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+}
+
+#wrapper{
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+
+img {
+border: none;　
+}
+
+
+
+html {
+    overflow: auto;
+}
+
+.naiyou a:link {
+	color: #605B4C;
+	text-decoration: none;
+}
+.naiyou a:visited {
+	color: #605B4C;
+}
+.naiyou a:hover {
+	color: #AAAAAA;
+}
+.naiyou a:active {
+	color: #FFFFFF;
+}
+
+
+.scroll a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.scroll a:visited {
+	color: #FFFFFF;
+}
+.scroll a:hover {
+	color: #AAAAAA;
+}
+.scroll a:active {
+	color: #FFFFFF;
+}
+
+
+.clear {
+    clear:both;
+}
+
+p {
+	letter-spacing: 0.2em;
+}
+
+/*===============================================
+ヘッダー START
+===============================================*/
+button,
+#button,
+.drawer-nav,
+.drawer-menu{
+  display: none;
+}
+
+#header{
+  width:100%;
+  height: 420px;
+  margin: auto;
+  padding: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-image: url("../images/top.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+
+
+.header_block{
+  width:100%;
+  height: auto;
+  position: absolute;
+  top:0%;
+  left:0%;
+  overflow: hidden;
+  background-color: rgba(98, 98, 98, 0.5);
+  filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#66000000,EndColorStr=#66000000);/*IE8以下用*/
+  z-index: 100000;
+  clear:both;
+
+}
+.video{
+  display: none;
+}
+
+.logo{
+  float: left;
+  width:20%;
+  height: auto;
+  position: absolute;
+  top:22%;
+  left:1%;
+  z-index: 100000;
+}
+
+.logo img{
+  width:100%;
+  height: auto;
+  z-index: 100000;
+}
+
+.navi_01{
+  float: right;
+  width:85%;
+  z-index: 100000;
+}
+
+.navi_01 li{
+  width:13%;
+  height: auto;
+  display: inline-block;
+  padding: 0;
+  *display: inline;
+  *zoom:1;
+  *padding-top: 3%;
+  *margin: 0;
+}
+
+.shop_logo{
+  position: absolute;
+  top:40%;
+  left:40%;
+  width:20%;
+}
+
+.shop_logo img{
+  width:100%;
+}
+
+/*スクロール*/
+.scroll {
+	padding-top: 70px;
+  position: absolute;
+  top:74%;
+  left: 49%;
+  color: #fff;
+}
+.scroll span {
+	display: none;
+}
+
+@-webkit-keyframes sdb {
+	0% {
+		-webkit-transform: rotate(-45deg) translate(0, 0);
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		-webkit-transform: rotate(-45deg) translate(-20px, 20px);
+		opacity: 0;
+	}
+}
+@keyframes sdb {
+	0% {
+		transform: rotate(-45deg) translate(0, 0);
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		transform: rotate(-45deg) translate(-20px, 20px);
+		opacity: 0;
+	}
+}
+
+/*===============================================
+ヘッダー END
+===============================================*/
+
+/*===============================================
+ヘッダー END
+===============================================*/
+
+
+
+
+/*===============================================
+メイン S
+===============================================*/
+
+main {
+  width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+h1 {
+	margin: 0;
+	font-size: 1.5em;
+	line-height: 2em;
+	letter-spacing: 0.1em;
+}
+
+h2 {
+	marign: 0;
+	text-align: left;
+	font-size: 1.3em;
+	letter-spacing: 0.15em;
+	position: relative;
+	padding: .25em 0 .5em .75em;
+	border-left: 6px solid #f6938e;
+}
+h2::after {
+	text-align: left;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	content: '';
+	width: 100%;
+	height: 0;
+	border-bottom: 1px solid #AAAAAA;
+}
+
+h4 {
+	margin: 0;
+	font-size: 1.5em;
+	line-height: 2em;
+	letter-spacing: 0.1em;
+}
+
+.catchcopy {
+	margin: 0 auto;
+	padding: 0;
+	width:82%;
+	text-align: center;
+}
+
+.catchcopy-box {
+	margin: 15px auto;
+	padding: 0;
+	width:68%;
+	text-align: left;
+	/*display: -webkit-flex;
+	flex-wrap:wrap;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;*/
+	overflow:hidden;
+}
+
+div.topic {
+  width: 250px;
+  height:660px;
+  margin: 5px;
+  padding: 10px 20px 15px;
+  background: #e9f3d1;
+  float: left;
+  margin: 3%;
+  /*border-radius: 10px;
+  -webkit-flex-direction: column;
+  flex-direction: column;*/
+}
+
+div.topic img {
+  width: 100%;
+  margin-top: 10px;
+  padding: 0;
+  text-align: center;
+  order: -1;
+}
+
+div.topic p {
+	text-align: left;
+	line-height: 1.5em;
+}
+
+.line {
+	margin: 50px auto;
+}
+
+.catchcopy2 {
+	margin: 0 auto;
+	padding: 0;
+	max-width:700px;
+	width: 90%;
+	text-align: left;
+}
+
+
+table {
+    width: 700px;
+    margin: -25px auto 40px;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+tr.ao {
+	background-color: #d1edec;
+}
+
+th,td {
+    padding: 7px 20px;
+    border: 0;
+    letter-spacing: 0.2em;
+    border-style: hidden;
+}
+
+th {
+    vertical-align: middle;
+    overflow: visible;
+    position: relative;
+    font-weight: normal;
+	text-align:center;
+}
+
+td {
+    text-align: left;
+}
+
+thead th {
+	padding-top: 25px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 120%;
+}
+
+
+ul.naiyou {
+	width: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+	display:inline-block;
+	padding: 20px 0 40px 0;
+}
+
+ul.naiyou li {
+	width: auto;
+	height: 30px;
+    display: inline-block;
+    vertical-align:middle;
+    text-align:center;
+    border-left:1px solid white;
+    margin: 0 10px;
+	*display:inline;
+	*zoom:1;
+}
+
+:root ul.naiyou li {
+	display:inline\0/;
+	zoom: 1\0/;
+}
+
+ul.naiyou li a {
+  display: block;
+}
+.link-table{
+  margin-top: 5%;
+}
+.link-table table {
+	width: 700px;
+}
+
+.link-table td {
+	border-top: 1px solid #AAAAAA;
+}
+
+TABLE.formTable {
+	width: 500px;
+}
+
+/*===============================================
+メイン E
+===============================================*/
+
+
+
+/*===============================================
+フッター S
+===============================================*/
+
+footer {
+	margin: 0;
+	padding: 0;
+	height: 200px;
+	background-image: url(../images/thumb-footer.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+footer h3 {
+	margin: 0;
+	padding-top: 90px;
+}
+
+footer p {
+	margin:5px auto  0;
+	padding: 0;
+}
+
+/*===============================================
+フッター E
+===============================================*/
+
+/*===============================================
+TOPへ戻るボタン S
+===============================================*/
+
+#page-top {
+    position: fixed;
+    bottom: 3%;
+    right: 5%;
+    font-size: 77%;
+    z-index: 1000000;
+}
+#page-top a {
+    background: rgba(51,51,51,0.3);
+    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#66000000,EndColorStr=#66000000);/*IE8以下用*/
+    text-decoration: none;
+    color: #fff;
+    width: 90px;
+    padding: 10px 0;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    z-index: 1000000;
+}
+#page-top a:hover {
+    text-decoration: none;
+    background: rgba(51,51,51,0.7);
+}
+
+/*===============================================
+TOPへ戻るボタン　E
+===============================================*/
+
+/*===============================================
+浮き出る画像　S
+===============================================*/
+
+#animation1 {
+margin: 0;
+font-size: 40px;
+font-weight: bold;
+color: #ff0000;
+}
+
+#animation2 {
+margin :0;
+font-size: 40px;
+font-weight: bold;
+color: #ff0000;
+}
+
+#animation3 {
+margin: 0;
+font-size: 40px;
+font-weight: bold;
+color: #ff0000;
+}
+
+.fadeInDown {
+ -webkit-animation-fill-mode:both;
+ -ms-animation-fill-mode:both;
+ animation-fill-mode:both;
+ -webkit-animation-duration:1s;
+ -ms-animation-duration:1s;
+ animation-duration:1s;
+ -webkit-animation-name: fadeInDown;
+ animation-name: fadeInDown;
+ visibility: visible !important;
+}
+@-webkit-keyframes fadeInDown {
+ 0% { opacity: 0; -webkit-transform: translateY(-20px); }
+ 100% { opacity: 1; -webkit-transform: translateY(0); }
+}
+@keyframes fadeInDown {
+ 0% { opacity: 0; -webkit-transform: translateY(-20px); -ms-transform: translateY(-20px); transform: translateY(-20px); }
+ 100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+}
+
+/*===============================================
+浮き出る画像　E
+===============================================*/
+=======
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+  max-width: 1000px;
+  width:100%;
+  height: auto;
+	margin: auto;
+	padding: 0;
+	text-align: center;
+	color:#605B4C;
+	line-height:1.4em;
+	font-size:0.95em;
+	font-family:"游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+}
+
+#wrapper{
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+
+img {
+border: none;　
+}
+
+
+
+html {
+    overflow: auto;
+}
+
+.naiyou a:link {
+	color: #605B4C;
+	text-decoration: none;
+}
+.naiyou a:visited {
+	color: #605B4C;
+}
+.naiyou a:hover {
+	color: #AAAAAA;
+}
+.naiyou a:active {
+	color: #FFFFFF;
+}
+
+
+.scroll a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.scroll a:visited {
+	color: #FFFFFF;
+}
+.scroll a:hover {
+	color: #AAAAAA;
+}
+.scroll a:active {
+	color: #FFFFFF;
+}
+
+
+.clear {
+    clear:both;
+}
+
+p {
+	letter-spacing: 0.2em;
+}
+
+/*===============================================
+ヘッダー START
+===============================================*/
+button,
+#button,
+.drawer-nav,
+.drawer-menu{
+  display: none;
+}
+<<<<<<< HEAD
+
+#header{
+  width:100%;
+  height: 420px;
+=======
+#header{
+  width:100%;
+  height: 600px;
+>>>>>>> 86ac3c285ba55c969f0f77fda1e839af429ba333
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-image: url("../images/top.jpg");
+<<<<<<< HEAD
+=======
+  background-size: contain;
+>>>>>>> 86ac3c285ba55c969f0f77fda1e839af429ba333
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+
+
+.header_block{
+  width:100%;
+  height: auto;
+  position: absolute;
+  top:0%;
+  left:0%;
+  overflow: hidden;
+  background-color: rgba(98, 98, 98, 0.5);
+  filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#66000000,EndColorStr=#66000000);/*IE8以下用*/
+  z-index: 100000;
+  clear:both;
+
+}
+.video{
+  display: none;
+}
+
+.logo{
+  float: left;
+  width:20%;
+  height: auto;
+  position: absolute;
+  top:22%;
+  left:1%;
+  z-index: 100000;
+}
+
+.logo img{
+  width:100%;
+  height: auto;
+  z-index: 100000;
+}
+
+.navi_01{
+  float: right;
+  width:85%;
+  z-index: 100000;
+}
+
+.navi_01 li{
+  width:13%;
+  height: auto;
+  display: inline-block;
+  padding: 0;
+  *display: inline;
+  *zoom:1;
+  *padding-top: 3%;
+  *margin: 0;
+}
+
+.shop_logo{
+  position: absolute;
+  top:40%;
+  left:40%;
+  width:20%;
+}
+
+.shop_logo img{
+  width:100%;
+}
+
+/*スクロール*/
+.scroll {
+	padding-top: 70px;
+  position: absolute;
+  top:74%;
+  left: 49%;
+  color: #fff;
+}
+.scroll span {
+	display: none;
+}
+
+@-webkit-keyframes sdb {
+	0% {
+		-webkit-transform: rotate(-45deg) translate(0, 0);
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		-webkit-transform: rotate(-45deg) translate(-20px, 20px);
+		opacity: 0;
+	}
+}
+@keyframes sdb {
+	0% {
+		transform: rotate(-45deg) translate(0, 0);
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		transform: rotate(-45deg) translate(-20px, 20px);
+		opacity: 0;
+	}
+}
+
+/*===============================================
+ヘッダー END
+===============================================*/
+
+/*===============================================
+ヘッダー END
+===============================================*/
+
+
+
+
+/*===============================================
+メイン S
+===============================================*/
+
+main {
+  width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+h1 {
+	margin: 0;
+	font-size: 1.5em;
+	line-height: 2em;
+	letter-spacing: 0.1em;
+}
+
+h2 {
+	marign: 0;
+	text-align: left;
+	font-size: 1.3em;
+	letter-spacing: 0.15em;
+	position: relative;
+	padding: .25em 0 .5em .75em;
+	border-left: 6px solid #f6938e;
+}
+h2::after {
+	text-align: left;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	content: '';
+	width: 100%;
+	height: 0;
+	border-bottom: 1px solid #AAAAAA;
+}
+
+h4 {
+	margin: 0;
+	font-size: 1.5em;
+	line-height: 2em;
+	letter-spacing: 0.1em;
+}
+
+.catchcopy {
+	margin: 0 auto;
+	padding: 0;
+	width:82%;
+	text-align: center;
+}
+
+.catchcopy-box {
+	margin: 15px auto;
+	padding: 0;
+	width:68%;
+	text-align: left;
+	/*display: -webkit-flex;
+	flex-wrap:wrap;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;*/
+	overflow:hidden;
+}
+
+div.topic {
+  width: 250px;
+  height:660px;
+  margin: 5px;
+  padding: 10px 20px 15px;
+  background: #e9f3d1;
+  float: left;
+  margin: 3%;
+  /*border-radius: 10px;
+  -webkit-flex-direction: column;
+  flex-direction: column;*/
+}
+
+div.topic img {
+  width: 100%;
+  margin-top: 10px;
+  padding: 0;
+  text-align: center;
+  order: -1;
+}
+
+div.topic p {
+	text-align: left;
+	line-height: 1.5em;
+}
+
+.line {
+	margin: 50px auto;
+}
+
+.catchcopy2 {
+	margin: 0 auto;
+	padding: 0;
+	max-width:700px;
+	width: 90%;
+	text-align: left;
+}
+
+
+table {
+    width: 700px;
+    margin: -25px auto 40px;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+tr.ao {
+	background-color: #d1edec;
+}
+
+th,td {
+    padding: 7px 20px;
+    border: 0;
+    letter-spacing: 0.2em;
+    border-style: hidden;
+}
+
+th {
+    vertical-align: middle;
+    overflow: visible;
+    position: relative;
+    font-weight: normal;
+	text-align:center;
+}
+
+td {
+    text-align: left;
+}
+
+thead th {
+	padding-top: 25px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 120%;
+}
+
+
+ul.naiyou {
+	width: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+	display:inline-block;
+	padding: 20px 0 40px 0;
+}
+
+ul.naiyou li {
+	width: auto;
+	height: 30px;
+    display: inline-block;
+    vertical-align:middle;
+    text-align:center;
+    border-left:1px solid white;
+    margin: 0 10px;
+	*display:inline;
+	*zoom:1;
+}
+
+:root ul.naiyou li {
+	display:inline\0/;
+	zoom: 1\0/;
+}
+
+ul.naiyou li a {
+  display: block;
+}
+.link-table{
+  margin-top: 5%;
+}
+.link-table table {
+	width: 700px;
+}
+
+.link-table td {
+	border-top: 1px solid #AAAAAA;
+}
+
+TABLE.formTable {
+	width: 500px;
+}
+
+/*===============================================
+メイン E
+===============================================*/
+
+
+
+/*===============================================
+フッター S
+===============================================*/
+
+footer {
+	margin: 0;
+	padding: 0;
+	height: 200px;
+	background-image: url(../images/thumb-footer.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+footer h3 {
+	margin: 0;
+	padding-top: 90px;
+}
+
+footer p {
+	margin:5px auto  0;
+	padding: 0;
+}
+
+/*===============================================
+フッター E
+===============================================*/
+
+/*===============================================
+TOPへ戻るボタン S
+===============================================*/
+
+#page-top {
+    position: fixed;
+    bottom: 3%;
+    right: 5%;
+    font-size: 77%;
+    z-index: 1000000;
+}
+#page-top a {
+    background: rgba(51,51,51,0.3);
+    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#66000000,EndColorStr=#66000000);/*IE8以下用*/
+    text-decoration: none;
+    color: #fff;
+    width: 90px;
+    padding: 10px 0;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    z-index: 1000000;
+}
+#page-top a:hover {
+    text-decoration: none;
+    background: rgba(51,51,51,0.7);
+}
+
+/*===============================================
+TOPへ戻るボタン　E
+===============================================*/
+
+/*===============================================
+浮き出る画像　S
+===============================================*/
+
+#animation1 {
+margin: 0;
+font-size: 40px;
+font-weight: bold;
+color: #ff0000;
+}
+
+#animation2 {
+margin :0;
+font-size: 40px;
+font-weight: bold;
+color: #ff0000;
+}
+
+#animation3 {
+margin: 0;
+font-size: 40px;
+font-weight: bold;
+color: #ff0000;
+}
+
+.fadeInDown {
+ -webkit-animation-fill-mode:both;
+ -ms-animation-fill-mode:both;
+ animation-fill-mode:both;
+ -webkit-animation-duration:1s;
+ -ms-animation-duration:1s;
+ animation-duration:1s;
+ -webkit-animation-name: fadeInDown;
+ animation-name: fadeInDown;
+ visibility: visible !important;
+}
+@-webkit-keyframes fadeInDown {
+ 0% { opacity: 0; -webkit-transform: translateY(-20px); }
+ 100% { opacity: 1; -webkit-transform: translateY(0); }
+}
+@keyframes fadeInDown {
+ 0% { opacity: 0; -webkit-transform: translateY(-20px); -ms-transform: translateY(-20px); transform: translateY(-20px); }
+ 100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+}
+
+/*===============================================
+浮き出る画像　E
+===============================================*/
+>>>>>>> f433a04937545255649a0cc2d6c9ec3618c0a7fa
