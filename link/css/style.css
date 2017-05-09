@@ -14,11 +14,15 @@ img {
 #container{
 	width:100%;
 }
-#wrapper{
+
+#main{
 	max-width: 1000px;
 	margin: auto;
 }
 
+#wrapper{
+	width: 100%;
+}
 html {
     overflow: scroll;
 }
@@ -255,6 +259,10 @@ h2::after {
 	text-align: left;
 }
 
+.catchcopy h1{
+	margin: 2em auto;
+}
+
 
 .line {
 	margin: 50px auto;
@@ -270,8 +278,8 @@ h2::after {
 }
 
 .link-table th,td {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 2em;
+    padding-bottom: 2em;
     border-top: 1px solid #AAAAAA;
     letter-spacing: 0.2em;
 }
@@ -283,8 +291,6 @@ h2::after {
     padding-left: 20px;
     padding-right: 5px;
     overflow: visible;
-    position: relative;
-    font-weight: bold;
 }
 
 .link-table td {

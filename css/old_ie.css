@@ -16,7 +16,7 @@ body {
 }
 
 #wrapper{
-    width: 100%;
+    max-width: 100%;
     height: auto;
     margin: auto;
   }
@@ -88,7 +88,7 @@ button,
   top: 0;
   left: 0;
   background-image: url("../images/top.jpg");
-  background-size: contain;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -250,25 +250,6 @@ h4 {
 	letter-spacing: 0.1em;
 }
 
-.catchcopy {
-	margin: 0 auto;
-	padding: 0;
-	width:82%;
-	text-align: center;
-}
-
-.catchcopy-box {
-	margin: 15px auto;
-	padding: 0;
-	width:68%;
-	text-align: left;
-	/*display: -webkit-flex;
-	flex-wrap:wrap;
-	display: flex;
-	-webkit-justify-content: center;
-	justify-content: center;*/
-	overflow:hidden;
-}
 
 div.topic {
   width: 250px;
@@ -771,7 +752,14 @@ h4 {
 	width:82%;
 	text-align: center;
 }
+#catchcopy{
+  overflow: hidden;
+}
 
+#catchcopy h4{
+  width:90%;
+  margin: auto;
+}
 .catchcopy-box {
 	margin: 15px auto;
 	padding: 0;

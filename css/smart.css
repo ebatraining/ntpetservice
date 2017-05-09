@@ -8,6 +8,13 @@
 	margin: auto;
 }
 
+
+body {
+	margin: 0;
+	padding: 0;
+	color:#605B4C;
+	font-family:"游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+}
 img{
 	max-width: 100%;
 	height: auto;
@@ -122,7 +129,6 @@ color: #ff0000;
 
 footer {
 	margin: 0;
-	padding: 3%;
 	height: 275px;
 	width:100%;
 	background-image: url(../images/thumb-footer-sp.jpg);
@@ -134,39 +140,71 @@ footer {
 
 footer h3 {
 	margin: 0;
-	padding-top: 90px;
+	padding-top: 7em;
 }
-
-.catchcopy {
-	margin: 0 auto;
-	padding: 0;
-	width:80%;
+small{
+	font-size: 0.6em;
 }
-
+#catchcopy{
+	width: 90%;
+	margin: auto;
+}
+.catchcopy{
+	width:90%;
+	margin: auto;
+}
+.catchcopy2 p{
+	font-size: 0.8em;
+}
 .catchcopy-box{
 	width:100%;
 }
-
+.catchcopy2 h1{
+	margin: 1em auto;
+}
 .catchcopy2{
-	width:94%;
-	padding: 3%;
+	width:80%;
+	margin: 2em auto;
 }
 .topic{
-	width:94%;
-	padding:3%;
+	width:80%;
+	margin: auto;
 }
 
+.topic p {
+	font-size: 0.8em;
+}
 .topic img{
 	width:80%;
-	padding:3% 0 3% 10%;
+	margin: auto;
 }
 
 .naiyou{
 	display: none;
 }
 
+#neko{
+	width: 80%;
+	margin: auto;
+}
+.about-text{
+	width:80%;
+	margin: auto;
+}
+.about-text-bottom{
+	width:80%;
+	margin: auto;
+	margin-bottom: 3em;
+}
+.about-text p{
+	font-size: 0.8em;
+}
+.about-text-bottom p{
+	font-size: 0.8em;
+	margin-bottom: 3em;
+}
 h1 {
-	font-size: 120%;
+	font-size: 1em;
 	text-align: center;
 	letter-spacing: normal;
 	line-height: 1.5em;
@@ -174,13 +212,34 @@ h1 {
 
 
 h2 {
-	font-size: 110%;
+	font-size: 0.8em;
 }
 
 h4 {
-	font-size: 110%;
+	font-size: 0.8em;
+	margin: 2em auto;
+	text-align: center;
+
+}
+ol{
+	font-size: 0.8em;
 }
 
+.catchcopy2-bottom{
+	width: 80%;
+	margin: auto;
+}
+
+.catchcopy2-bottom p{
+	font-size: 0.8em;
+}
+#main{
+	width: 80%;
+	margin: auto;
+}
+#main p{
+	font-size: 0.8em;
+}
 section {
   width: 300px;
   margin: 5px;
@@ -200,7 +259,9 @@ section img {
 }
 
 
-
+.link-table{
+	font-size: 0.8em;
+}
 
 table {
 	margin: 0 auto;
@@ -258,7 +319,8 @@ td {
 }
 
 .text {
-	max-width: 90%;
+	width: 80%;
+	margin: auto;
 }
 
 #formWrap {

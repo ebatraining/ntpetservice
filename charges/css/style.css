@@ -14,9 +14,14 @@ img {
 #container{
 	width:100%;
 }
-#wrapper{
+
+#main{
 	max-width: 1000px;
 	margin: auto;
+}
+
+#wrapper{
+	width: 100%;
 }
 
 html {
@@ -253,6 +258,9 @@ h2::after {
 	width:82%;
 }
 
+.catchcopy h1{
+	margin: 2em 0 0 0;
+}
 
 
 .line {
@@ -271,7 +279,9 @@ h2::after {
 .catchcopy2 a {
 	font-weight: bold;
 }
-
+.catchcopy2 p{
+	margin: 2em 0 0 0;
+}
 .catchcopy2-bottom {
 	margin: 0 auto 75px;
 	padding: 0;
@@ -280,7 +290,9 @@ h2::after {
 	text-align: left;
 	clear: both;
 }
-
+.catchcopy2 p{
+	margin: 2em 0 0 0;
+}
 ul.naiyou {
 	width: 100%;
 	max-width: 100%;

@@ -4,6 +4,10 @@
 @media screen and (min-width: 768px){
 
 #wrapper{
+  width: 100%;
+  margin: auto;
+}
+#main{
     max-width: 1000px;
     margin: auto;
   }
@@ -261,9 +265,9 @@ h4 {
 }
 
 #catchcopy {
-	margin: 0 auto;
+	margin: 5em auto;
 	padding: 0;
-	width:82%;
+	width:90%;
 	text-align: center;
 }
 
@@ -277,11 +281,15 @@ h4 {
 	display: inline;
 }
 
+.catchcopy h4{
+  margin: 1em 0;
+}
+
 div.topic {
-  width: 300px;
+  width: 22%;
   height: 700px;
-  margin: 5px;
-  padding: 10px 20px 15px;
+  margin: 1%;
+  padding: 2%;
   background: #e9f3d1;
   border-radius: 10px;
   display:inline-table;
@@ -312,6 +320,9 @@ div.topic p {
 	text-align: left;
 }
 
+.catchcopy2 h1{
+  margin: 1em 0;
+}
 
 table {
     max-width: 520px;

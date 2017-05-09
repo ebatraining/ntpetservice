@@ -18,7 +18,12 @@
 <![endif]-->
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="../js/common.js"></script>
+<script src="../js/iscroll.js"></script>
+<link rel="stylesheet" href="../css/drawer.min.css">
+<script src="../js/drawer.min.js"></script>
 <script type="text/javascript">
+
 $(function() {
     var topBtn = $('#page-top');
     topBtn.hide();
@@ -38,8 +43,6 @@ $(function() {
         return false;
     });
 });
-</script>
-<script type="text/javascript">
 $(function(){
 	$('a[href^=#]').click(function(){
 		var speed = 500;
@@ -52,17 +55,10 @@ $(function(){
 });
 </script>
 
-<script type="text/javascript" src="../js/common.js"></script>
-<!--button-->
-<script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
-<script src="../js/iscroll.js"></script>
-<link rel="stylesheet" href="../css/drawer.min.css">
-<script src="../js/drawer.min.js"></script>
 <script>
 $(document).ready(function() {
   $(".drawer").drawer();
 });</script>
-<!--button end-->
 </head>
 
 <body class="drawer drawer--right">

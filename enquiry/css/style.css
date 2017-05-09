@@ -14,11 +14,15 @@ img {
 #container{
 	width:100%;
 }
-#wrapper{
+
+#main{
 	max-width: 1000px;
 	margin: auto;
 }
 
+#wrapper{
+	width: 100%;
+}
 html {
     overflow: scroll;
 }
@@ -266,7 +270,13 @@ h2::after {
 	text-align: left;
 }
 
+.catchcopy2 h1{
+  margin: 2em 0;
+}
 
+.catchcopy2 p{
+  margin: 2em 0;
+}
 
 table.formTable{
 	max-width: 550px;
@@ -286,7 +296,9 @@ table.formTable th{
 	text-align: center;
 }
 
-
+#formWrap{
+	margin-bottom: 4em;
+}
 
 
 

@@ -19,11 +19,14 @@ img {
 	width:100%;
 }
 
-#wrapper{
+#main{
 	max-width: 1000px;
 	margin: auto;
 }
 
+#wrapper{
+	width: 100%;
+}
 html {
     overflow: scroll;
 }
@@ -257,7 +260,9 @@ h2::after {
 	padding: 0;
 	width:82%;
 }
-
+.catchcopy h1{
+	margin: 2em 0 0 0;
+}
 ul.naiyou {
 	width: 100%;
 	max-width: 100%;
@@ -292,6 +297,9 @@ ul.naiyou li a {
 	text-align: left;
 }
 
+.about-text p{
+	margin-top: 3em;
+}
 .about-text-bottom {
 	margin: 0 auto;
 	padding-bottom: 60px;
@@ -299,7 +307,9 @@ ul.naiyou li a {
 	max-width: 90%;
 	text-align: left;
 }
-
+.about-text-bottom p{
+	margin-top: 3em;
+}
 
 /*===============================================
 メイン E

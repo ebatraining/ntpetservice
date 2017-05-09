@@ -14,11 +14,15 @@ img {
 #container{
 	width:100%;
 }
-#wrapper{
+
+#main{
 	max-width: 1000px;
 	margin: auto;
 }
 
+#wrapper{
+	width: 100%;
+}
 html {
     overflow: scroll;
 }
@@ -249,7 +253,7 @@ h2::after {
 }
 
 .catchcopy {
-	margin: 0 auto;
+	margin: 2em auto;
 	padding: 0;
 	width:82%;
 	text-align: left;
@@ -272,6 +276,7 @@ h2::after {
 }
 .wrapper p {
 	text-align: left;
+	margin: 3em 0 0 0;
 }
 
 .wrapper a {
