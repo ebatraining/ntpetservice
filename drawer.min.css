@@ -11,8 +11,8 @@
 .navi_01 li a{
   text-decoration:none;
   color:#FFFFDD;
-
-
+  opacity: 0;
+  
 }
 
 .navi_01 li a p{
@@ -20,11 +20,11 @@
   position: relative;
   top: -15px;
   text-align: center;
-  visibility: hidden;
 }
 
-.a{
-  opacity: 0;
+
+.current p{
+  opacity: 1;
 }
 
 @media screen and (min-width: 768px){

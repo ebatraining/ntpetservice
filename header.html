@@ -1,18 +1,38 @@
 
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script>
+	$(function(){
+		$('.sideNav02 li a').each(function(){
+			var $href = $(this).attr('href');
+			if(location.href.match($href)) {
+				$(this).children('p').addClass('current');
+			} else {
+				$(this).children('p').removeClass('current');
+			}
+		});
+	});
+	$(function(){
+		$('.current').css('visibility','visible');
+	});
+</script>
+
+
+
+
 <div id="header">
 <div class="header_block">
 <div class="logo">
   <img src="{$root}images/header_logo_01.png" alt="ＮＴペットサービス" />
 </div>
 <nav class="navi_01">
-  <ul>
-  <li><a href="{$root}index.html"><img src="{$root}images/header_home.png" alt="ホーム"></a></li>
-  <li><a href="{$root}about/index.html"><img src="{$root}images/header_contents.png" alt="お世話内容"></a></li>
-  <li><a href="{$root}charges/index.html"><img src="{$root}images/header_price.png" alt="料金内容"></a></li>
-  <li><a href="{$root}info/index.html"><img src="{$root}images/header_application.png" alt="お申込みについて"></a></li>
-  <li><a href="{$root}enquiry/index.html"><img src="{$root}images/header_contact.png" alt="お問い合わせ"></a></li>
-  <li><a href="{$root}profile/index.html"><img src="{$root}images/header_sitter.png" alt="ペットシッター"></a></li>
-  <li><a href="{$root}link/index.html"><img src="{$root}images/header_link.png" alt="リンク"></a></li>
+  <ul class=sideNav02>
+  <li><a href="{$root}index.html"><img src="{$root}images/header_home.png" alt="ホーム"><p class="a">a</p></a></li>
+  <li><a href="{$root}about/index.html"><img src="{$root}images/header_contents.png" alt="お世話内容"><p>&#10059;</p></a></li>
+  <li><a href="{$root}charges/index.html"><img src="{$root}images/header_price.png" alt="料金内容"><p>&#10059;</p></a></li>
+  <li><a href="{$root}info/index.html"><img src="{$root}images/header_application.png" alt="お申込みについて"><p>&#10059;</p></a></li>
+  <li><a href="{$root}enquiry/index.html"><img src="{$root}images/header_contact.png" alt="お問い合わせ"><p>&#10059;</p></a></li>
+  <li><a href="{$root}profile/index.html"><img src="{$root}images/header_sitter.png" alt="ペットシッター"><p>&#10059;</p></a></li>
+  <li><a href="{$root}link/index.html"><img src="{$root}images/header_link.png" alt="リンク"><p>&#10059;</p></a></li>
   </ul>
 </nav>
 

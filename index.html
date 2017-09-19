@@ -61,6 +61,21 @@ $(function(){
 $(document).ready(function() {
   $(".drawer").drawer();
 });</script>
+
+<script type="text/javascript">
+	$(function(){
+		$('#sideNav02 li a').each(function(){
+			var $href = $(this).attr('href');
+			if(location.href.match($href)) {
+				$(this).parent('li').addClass('current');
+			} else {
+				$(this).parent('li').removeClass('current');
+			}
+		});
+	});
+</script>
+
+
 <!--button end-->
 </head>
 
