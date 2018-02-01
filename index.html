@@ -54,9 +54,10 @@ $(function(){
 </script>
 <script type="text/javascript" src="./js/common.js"></script>
 <!--button-->
-<script src="js/iscroll.js"></script>
-<link rel="stylesheet" href="css/drawer.min.css">
-<script src="js/drawer.min.js"></script>
+
+<link rel="stylesheet" href="./css/drawer.min.css">
+<script src="./js/iscroll.js"></script>
+<script src="./js/drawer.min.js"></script>
 <script>
 $(document).ready(function() {
   $(".drawer").drawer();
@@ -64,7 +65,7 @@ $(document).ready(function() {
 
 <script type="text/javascript">
 	$(function(){
-		$('#sideNav02 li a').each(function(){
+		$('.sideNav02 li a').each(function(){
 			var $href = $(this).attr('href');
 			if(location.href.match($href)) {
 				$(this).parent('li').addClass('current');
@@ -85,6 +86,18 @@ $(document).ready(function() {
 <script type="text/javascript">
 writeHeader("./");
 </script>
+
+<div class="video">
+<video autoplay loop><source src="./mp4/pet02.mp4"></video>
+</div>
+
+<div class="shop_logo">
+  <img src="./images/header_logo_02.png"  alt="ショップロゴ">
+</div>
+
+<div class="scroll"><a href="#main"><span></span>Scroll</a></div>
+</div>
+
 <!--  H E A D E R   E N D  -->
 <!--  M A I N   S T A R T  -->
 <main id="main">
@@ -95,20 +108,20 @@ writeHeader("./");
 	</div>
 	<div class="catchcopy-box">
 		<div class="topic">
-			<div id="animation1"><img src="./images/thumb-catch01.png" alt=""></div>
-			<h2>「安全に」</h2>
-			<p>いつもの場所でいつものようにご飯を食べたりお散歩したり。<br>そのための安全対策を万全に致します。</p>
+			<div id="animation1"><img src= ./images/index-contents1.gif alt="安全に"></div>
+			<h2 class="animation1-title">「安全に」</h2>
+			<p class="topic1-p">いつもの場所でいつものようにご飯を食べたりお散歩したり。<br>そのための安全対策を万全に致します。</p>
 		</div>
 		<div class="topic">
-			<div id="animation2"><img src="./images/thumb-catch02.png" alt=""></div>
-			<h2>「安心を」</h2>
-			<p>飼い主様不在の環境でペットの不安がなるべく和らぐように、ペットと仲良しになって信頼関係を築きます。<br>
+			<div id="animation2"><img src="./images/index-contents2.gif" alt="安心を"></div>
+			<h2 class="animation2-title">「安心を」</h2>
+			<p class="topic2-p">飼い主様不在の環境でペットの不安がなるべく和らぐように、ペットと仲良しになって信頼関係を築きます。<br>
 			飼い主様にも安心していただけるよう詳細なご報告をいたします。</p>
 		</div>
 		<div class="topic">
-			<div id="animation3"><img src="./images/thumb-catch03.png" alt=""></div>
-			<h2>「楽しく」</h2>
-			<p>ご飯をあげることも一緒にお散歩に行くことも、とても楽しいお仕事です。<br>
+			<div id="animation3"><img src="./images/index-contents3.gif" alt="楽しく"></div>
+			<h2 class="animation3-title">「楽しく」</h2>
+			<p class="topic3-p">ご飯をあげることも一緒にお散歩に行くことも、とても楽しいお仕事です。<br>
 			ペットに受け入れてもらえた時には心の中でガッツポーズをしています。撫でさせてもらいながら癒しをもらい、一緒に遊びながら元気をもらっています。<br>
 			この楽しい気持ちがペットに伝わって、お留守番のストレスが少しでも和らげばいいなと思っています。</p>
 		</div>

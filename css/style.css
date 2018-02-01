@@ -239,15 +239,33 @@ h1 {
 	text-align: center;
 }
 
-h2 {
-	marign: 0;
+.animation1-title {
+	margin: -2% 0 4% 25%;
 	text-align: left;
-	font-size: 1.3em;
+	font-size: 2.3em;
 	letter-spacing: 0.15em;
-	position: relative;
-	padding: .25em 0 .5em .75em;
-	border-left: 6px solid #f6938e;
+    background-image: linear-gradient(transparent 50%, #fbfd9f91 50%);
+    padding: 2% 0;
 }
+
+.animation2-title{
+    margin: -11% 0 4% 25%;
+    text-align: left;
+	font-size: 2.3em;
+	letter-spacing: 0.15em;
+    background-image: linear-gradient(transparent 50%, #ffa6de73 50%);
+    padding: 2% 0;
+}
+
+.animation3-title{
+    margin: -10% 0 4% 25%;
+	text-align: left;
+	font-size: 2.3em;
+	letter-spacing: 0.15em;
+    background-image: linear-gradient(transparent 50%, #99c6ff99 50%);
+    padding: 2% 0;
+}
+
 h2::after {
 	text-align: left;
 	position: absolute;
@@ -264,13 +282,17 @@ h4 {
 	font-size: 1.5em;
 	line-height: 2em;
 	letter-spacing: 0.1em;
+    width: 100%;
 }
 
 #catchcopy {
 	margin: 5em auto;
-	padding: 0;
-	width:90%;
+	width:100%;
 	text-align: center;
+    background-image: url("../images/skyblue.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 24% 0 20% 0;
 }
 
 #catchcopy-box {
@@ -288,26 +310,26 @@ h4 {
 }
 
 div.topic {
-  width: 22%;
-  height: 700px;
-  margin: 1%;
+  width: 90%;
+  height: 50%;
+  margin: 10% 0 20% 0;
   padding: 2%;
-  background: #e9f3d1;
   border-radius: 10px;
-  display:inline-table;
 }
 
 div.topic img {
-  width: 100%;
+  width: 65%;
   margin-top: 10px;
   padding: 0;
-  text-align: center;
   order: -1;
 }
 
 div.topic p {
 	text-align: left;
 	line-height: 1.5em;
+    margin-left: 27%;
+    font-size: 1.2em;
+    margin-top: 0;
 }
 
 .line {
@@ -437,24 +459,27 @@ TOPへ戻るボタン　E
 ===============================================*/
 
 #animation1 {
-margin: 0;
-font-size: 40px;
-font-weight: bold;
-color: #ff0000;
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+    color: #ff0000;
+    text-align: left;
 }
 
 #animation2 {
-margin: 0;
-font-size: 40px;
-font-weight: bold;
-color: #ff0000;
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+    color: #ff0000;
+    text-align: left;
 }
 
 #animation3 {
-margin: 0;
-font-size: 40px;
-font-weight: bold;
-color: #ff0000;
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+    color: #ff0000;
+    text-align: left;
 }
 
 .fadeInDown {

@@ -4,6 +4,19 @@
 /*===============================================
 ●style.css 画面の横幅が779px以上
 ===============================================*/
+
+.video{
+    display: none;
+}
+
+.shop_logo{
+    display: none;
+}
+
+.scroll{
+    display: none;
+}
+
 @media screen and (min-width: 768px){
 img {
 	max-width: 100%;
@@ -13,6 +26,21 @@ img {
 }
 #container{
 	width:100%;
+}
+
+#top-background{
+    position: relative;
+}
+
+.info-top img{
+    width: 100%;
+}
+
+.info-logo img{
+    position: absolute;
+    top: 48%;
+    left: 5%;
+    width: 41%;
 }
 
 #main{
@@ -88,13 +116,14 @@ button{
 }
 
 #header {
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  width:100%;
-  position: relative;
-  top: 0;
-  left: 0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height: 110px;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 .header_block{

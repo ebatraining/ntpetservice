@@ -68,10 +68,14 @@ p {
 	position: absolute;
 	top:3.5%;
 	left:6%;
-	z-index: 10000;
+	z-index: 1;
 }
+
 .logo img{
-	width:100%;
+	width:82%;
+    filter: brightness(0);
+    margin: 17% -22%;
+    display: block;
 }
 
 .shop_logo{
@@ -81,6 +85,77 @@ p {
 	width: 20%;
 	z-index: 10000;
 }
+
+#top-background{
+    position: relative;
+}
+
+.about-top img{
+    margin-bottom: 15%;
+}
+
+.about-logo img{
+    position: absolute;
+    top: 28%;
+    left: 11%;
+    width: 52%;
+}
+
+.charges-top img{
+    margin-bottom: 15%;
+}
+
+.charges-logo img{
+    position: absolute;
+    top: 26%;
+    left: 14%;
+    width: 35%;
+}
+
+.info-top img{
+    margin-bottom: 15%;
+}
+
+.info-logo img{
+    position: absolute;
+    top: 37%;
+    left: 3%;
+    width: 50%;
+}
+
+.enquiry-top img{
+    margin-bottom: 15%;
+}
+
+.enquiry-logo img{
+    position: absolute;
+    top: 31%;
+    right: 1%;
+    width: 40%;
+}
+
+.profile-top img{
+    margin-bottom: 15%;
+}
+
+.profile-logo img{
+    position: absolute;
+    top: 19%;
+    right: 6%;
+    width: 50%;
+}
+
+.link-top img{
+    margin-bottom: 15%;
+}
+
+.link-logo img{
+    position: absolute;
+    top: 25%;
+    right: 1%;
+    width: 36%;
+}
+
 /*ヘッダー　end*/
 
 
@@ -147,7 +222,11 @@ small{
 }
 #catchcopy{
 	width: 90%;
-	margin: auto;
+	margin: 5% auto;
+    background-image: url("../images/skyblue.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 24% 0 20% 0;
 }
 .catchcopy{
 	width:90%;
@@ -167,7 +246,7 @@ small{
 	margin: 2em auto;
 }
 .topic{
-	width:80%;
+	width:100%;
 	margin: auto;
 }
 
@@ -175,7 +254,7 @@ small{
 	font-size: 0.8em;
 }
 .topic img{
-	width:80%;
+	width:57%;
 	margin: auto;
 }
 
@@ -210,15 +289,59 @@ h1 {
 	line-height: 1.5em;
 }
 
+.animation1-title{
+    margin: -7% 0 4% 23%;
+    text-align: left;
+    font-size: 1em;
+    letter-spacing: 0.15em;
+    background-image: linear-gradient(transparent 50%,#fbfd9f91 50%);
+    padding: 2% 0;
+    width: 60%;
+}
 
-h2 {
-	font-size: 0.8em;
+.animation2-title{
+    margin: -16% 0 4% 23%;
+    text-align: left;
+    font-size: 1em;
+    letter-spacing: 0.15em;
+    background-image: linear-gradient(transparent 50%,#ffa6de73 50%);
+    padding: 2% 0;
+    width: 60%;
+}
+
+.animation3-title{
+    margin: -16% 0 4% 23%;
+    text-align: left;
+    font-size: 1em;
+    letter-spacing: 0.15em;
+    background-image: linear-gradient(transparent 50%,#99c6ff99 50%);
+    padding: 2% 0;
+    width: 60%;
+}
+
+.topic1-p{
+    font-size: 0.8em;
+    margin: 1% 0 20% 23%;
+    width: 60%;
+}
+
+.topic2-p{
+    font-size: 0.8em;
+    margin: 1% 0 20% 23%;
+    width: 60%;
+}
+
+.topic3-p{
+    font-size: 0.8em;
+    margin: 1% 0 20% 23%;
+    width: 60%;
 }
 
 h4 {
-	font-size: 0.8em;
-	margin: 2em auto;
+	font-size: 2vw;
+	margin: auto;
 	text-align: center;
+    width: 100%;
 
 }
 ol{
@@ -234,7 +357,7 @@ ol{
 	font-size: 0.8em;
 }
 #main{
-	width: 80%;
+	width: 90%;
 	margin: auto;
 }
 #main p{
