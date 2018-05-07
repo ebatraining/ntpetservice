@@ -75,9 +75,45 @@ $(document).ready(function() {
 		});
 	});
 </script>
-
-
 <!--button end-->
+
+<!--google map-->
+<script type="text/javascript">
+	var loadedGoogleMap = function(){
+		function initialize() {
+			var myLatlng = new google.maps.LatLng(35.7310479,140.0171763,19z); //マーカーの位置（＝所在地）
+      var styles = [
+				{
+					stylers: [
+						{ hue: "#66cdaa" },
+						{ lightness: 0 },
+						{ saturation: 60 },
+						{ gamma: 1 },
+						{ invert_lightness: false},
+						{ visibility: "simplified"}
+					]
+				}
+			];
+			var mapOptions = {
+				center: myLatlng,
+				zoom: 15,
+			};
+
+			var map = new google.maps.Map(document.getElementById('YOUR_MAP_ID'),mapOptions);
+
+			var marker = new google.maps.Marker({
+				position: myLatlng,
+				map: map,
+				title: 'ＮＴペットサービス',
+				icon: './images/ggmap_icon.png'
+			});
+
+		}
+		google.maps.event.addDomListener(window, 'load', initialize);
+	};
+</script>
+<!--google map-->
+
 </head>
 
 <body class="drawer drawer--right">
@@ -186,6 +222,13 @@ writeHeader("./");
 			</tr>
 		</table>
 	</div>
+
+  <!--google map-->
+  <div class="ggmap">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d404.8495092819405!2d140.01735463126613!3d35.73123348103763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601880201f9b833b%3A0x7b6deb81011996cf!2z77yu77y044Oa44OD44OI44K144O844OT44K5!5e0!3m2!1sja!2sjp!4v1525684254035" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+  <!--google map-->
+
 </main>
 <!--  M A I N   E N D  -->
 <!--  F O O T E R   S T A R T  -->
